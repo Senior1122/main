@@ -83,7 +83,7 @@ while True:
 	sys.stdout.flush()
 	result = run()
 	if result == 200:
-		g += 1
+		g += 5
 		progressBar()
 		print(f"\n[-] WORK ON ID: {referrer}")    
 		print(f"[:)] {g} GB has been successfully added to your account.")
